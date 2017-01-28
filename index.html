@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portal Bredas</title>
+
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+	<div class="container">
+
+		<img class="logo" src="./assets/img/logo-overall.svg" alt="">
+
+		<form class="domainForm" name="domainForm">
+
+			<div class="sw0">
+
+				<label class="sw2" for="domain-name">www.</label>
+				<input class="swi" id="domain" name="domain" type="text" placeholder="Domínio">
+				<span class="sw2">.bredas.com.br</span>
+
+			</div>
+
+			<button class="btnEnter" onclick="verifyDomain(event)"> Entrar </button>
+
+			<p id="isValid" class="domain-valid">É preciso informar o dominío !</p>
+
+		</form>
+
+	</div>
+
+
+
+	<script src="./assets/js/main.js"></script>
+</body>
+</html>
